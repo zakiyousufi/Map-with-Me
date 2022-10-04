@@ -13,6 +13,22 @@ const Continents = () => {
   console.log('fdfd', countriesOfContinent);
   const handleClick = (name) => {
     dispatch(getCountries(name, idName));
+    return (
+      <div>
+        <ul className="continents">
+          {continents.map(({ id, name, image }) => (
+            <li key={id}>
+              {name}
+              <img src={image} />
+              <button type="button" onClick={() => handleClick(name)}>
+                <BsFillArrowRightSquareFill />
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
+  };
   };
 
 export default Continents;

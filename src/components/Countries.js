@@ -17,7 +17,7 @@ const Countries = () => {
   return (
     <div>
       <div>
-      <img
+        <img
           src={`../images/${countries[0].continents[0]}.svg`}
           alt="continent-image"
         />

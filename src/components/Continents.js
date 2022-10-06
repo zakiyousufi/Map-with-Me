@@ -2,7 +2,7 @@ import React from 'react';
 import continentsOfTheWorld from '../data/data';
 import { fetchCountries } from '../redux/countries/countries';
 import { Link } from 'react-router-dom';
-import '../styles/continents.scss';
+import '../styles/continents.css';
 import { BsFillArrowRightSquareFill } from 'react-icons/bs';
 import { useDispatch } from 'react-redux';
 

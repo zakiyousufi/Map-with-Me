@@ -3,7 +3,11 @@
 ### 📜
 - This web application the world map with contries Stats I used an API to get the countries stats flags and and maps.
 
- a web site that has all information about space staion Rokets Missions and Dragons. 
+The Country-stats is a a React, Redux application based on the All [Countries API](https://restcountries.com/v3.1/all).
+
+In this application we're fetching the returned data from the API in the Redux store.
+
+This web application is build with react and provides statistical insights on all Continents and its various countries around the world. The application allows users to filter through the information by different continents and countries.'
 
 ### 💻 Live DEMO
 
@@ -59,5 +63,13 @@ thanks:
 ## 🙏🏻 Show your support
 Give a ⭐️ if you like this project!
 
+### Acknowledgments
+
+Microverse
+
+[All Countries API](https://restcountries.com/v3.1/all) for providing the data for free
+
+[Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the amazing on [Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+
 ## 📝 License
-This project is [MIT](./MIT.md) licensed.
+This project has no License 

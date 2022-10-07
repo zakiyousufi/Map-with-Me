@@ -7,7 +7,7 @@
 
 ### 💻 Live DEMO
 
-   [Online view]()
+   [Online view](https://thunderous-klepon-eb393d.netlify.app/)
    
    [Video](https://www.loom.com/share/70e5318c28b6424d8ddffccdb548eec3)
 

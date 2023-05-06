@@ -19,12 +19,13 @@ const Continents = () => {
       <label htmlFor="category-select">
         <select
           type="text"
-          value="Select Continent"
+          value="Select continent"
           onChange={changeState}
           placeholder="Category"
           name="category"
           className='select'
         >
+          <option value="Select Continent">SELECT ANY CONTINENT</option>
           <option value="All">ALL</option>
           <option value="Africa">AFRICA</option>
           <option value="Europe">EUROPE</option>

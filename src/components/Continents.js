@@ -2,7 +2,6 @@ import React from 'react';
 import { fetchCountries } from '../redux/countries/countries';
 import { getCategory } from '../redux/countries/categories';
 import { Link } from 'react-router-dom';
-import { BsFillArrowRightSquareFill } from 'react-icons/bs';
 import { useDispatch, useSelector } from 'react-redux';
 import '../styles/continents.scss';
 
@@ -15,7 +14,6 @@ const Continents = () => {
   const changeState = (e) => {
     dispatch(getCategory(e.target.value));
   };
-
   return (
     <div className="continents">
       <label htmlFor="category-select">
@@ -25,8 +23,8 @@ const Continents = () => {
           onChange={changeState}
           placeholder="Category"
           name="category"
+          className='select'
         >
-          <option value="Select Continent">SELECT CONTINENT</option>
           <option value="All">ALL</option>
           <option value="Africa">AFRICA</option>
           <option value="Europe">EUROPE</option>
@@ -40,10 +38,11 @@ const Continents = () => {
       <ul className="continents_list">
         {categories.map(({ id, name, image }) => (
           <li key={id}>
-            <img src={image} alt="country" />
-            <h2>{name}</h2>
             <Link to={`/${name}`}>
-              <BsFillArrowRightSquareFill onClick={() => handleClick(name)} />
+              <div onClick={() => handleClick(name)} >
+              <img src={image} alt="country" />
+              <h2>{name}</h2>
+              </div>
             </Link>
           </li>
         ))}

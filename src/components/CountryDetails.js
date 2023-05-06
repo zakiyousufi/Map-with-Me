@@ -1,11 +1,16 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import Loading from './Loading';
 import '../styles/countrydetails.scss';
 
 const CountryDetails = () => {
   const { countries } = useSelector((state) => state);
-
+  if (CountryDetails.length ===0) {
+    return (
+      <Loading />
+    )
+  }
   return (
     <div className="details">
       {countries.map((country) => (
@@ -13,7 +18,7 @@ const CountryDetails = () => {
           <div className="map">
             <MapContainer
               center={{ lat: country?.latlng[0], lng: country?.latlng[1] }}
-              zoom={6}
+              zoom={4}
               scrollWheelZoom={false}
             >
               <TileLayer
@@ -32,31 +37,31 @@ const CountryDetails = () => {
             </MapContainer>
           </div>
           <div className="item">
-            <p>TimesZones:</p>
+            <p>Time Zone(s):</p>
             <p>
               <strong>{country?.timezones}</strong>
             </p>
           </div>
           <div className="item">
-            <p>The Official name: </p>
+            <p>Name: </p>
             <p>
               <strong>{country?.name.official}</strong>
             </p>
           </div>
           <div className="item">
-            <p>The Population: </p>
+            <p>Population: </p>
             <p>
               <strong>{country?.population}</strong>
             </p>
           </div>
           <div className="item">
-            <p>Capital Name: </p>
+            <p>Capital: </p>
             <p>
               <strong>{country?.capital}</strong>
             </p>
           </div>
           <div className="item">
-            <p>The languages they speak are:</p>
+            <p>Language(s) :</p>
             <p>{Object.values(country?.languages)}</p>
           </div>
           <div className="item">

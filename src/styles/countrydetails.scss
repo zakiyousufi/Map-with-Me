@@ -8,11 +8,14 @@
   padding-top: 3rem;
 
   .map {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+    margin: 0 0;
     margin-bottom: 2rem;
+    width: 75%;
+
+    .c-map {
+      height: 78.5vh;
+      border-radius: 30px;
+    }
   }
 
   .item {
@@ -20,9 +23,9 @@
     color: #fff;
     display: flex;
     justify-content: space-between;
-    margin: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem 6%;
+    padding: 1rem 2%;
+    width: 100%;
+    margin-bottom: 12px;
 
     p {
       font-size: 15px;
@@ -44,11 +47,36 @@
   }
 }
 
+.details-container {
+  display: flex;
+  justify-content: center;
+
+  .contry-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 // ========= Mobile view ===========
 @media (max-width: 600px) {
   .leaflet-container {
     width: 90vw;
     height: 70vh;
     border-radius: 0.5rem;
+  }
+
+  .details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3%;
+    .map {
+      height: 40vh;
+      .c-map {
+        height: 40vh;
+      }
+    }
   }
 }

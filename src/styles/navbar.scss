@@ -48,3 +48,20 @@
 .love {
   color: rgb(189, 0, 0);
 }
+
+@media (max-width: 720px) {
+  .nav_bar {
+    display: flex;
+
+    h2 {
+      margin-left: 50%;
+      margin-right: 10%;
+      width: 100%;
+    }
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
+}

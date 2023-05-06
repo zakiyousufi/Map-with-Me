@@ -1,75 +1,153 @@
-# Word Map and Country Stats
+<!-- TABLE OF CONTENTS -->
 
-### 📜
-- This web application the world map with contries Stats I used an API to get the countries stats flags and and maps.
+# 📗 Table of Contents
 
-The Country-stats is a a React, Redux application based on the All [Countries API](https://restcountries.com/v3.1/all).
+<details>
+  <summary>📗 Table of Contents</summary>
+  <ul>
+    <li><a href="#-car-rental-front-end-">📖 World Map and Countries States</a></li>
+    <li><a href="#-built-with-">🛠 Built With</a></li>
+    <li><a href="#-getting-started-">💻 Getting Started</a></li>
+    <li><a href="#-authors-">👥 Authors </a></li>
+    <li><a href="#-future-features-">🔭 Future Features</a></li>
+    <li><a href="#-contributing-">🤝 Contributing</a></li>
+    <li><a href="#️-show-your-support-">⭐️ Show your support </a></li>
+    <li><a href="#-acknowledgments-">🙏 Acknowledgments </a></li>
+    <li><a href="#-license-">📝 License</a></li>
+  </ul>
+</details>
+
+<br>
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 World Map and Countries States <a name="about-project"></a>
+
+**World Map and Countries States** The Country-stats is a a React, Redux application based on the All [Countries API](https://restcountries.com/v3.1/all).
 
 In this application we're fetching the returned data from the API in the Redux store.
 
-This web application is build with react and provides statistical insights on all Continents and its various countries around the world. The application allows users to filter through the information by different continents and countries.'
+This web application is build with react and provides statistical insights on all Continents and its various countries around the world. The application allows users to filter through the information by different continents and countries.
 
-### 💻 Live DEMO
+## 🛠 Built With <a name="built-with"></a>
 
-   [Online view](https://thunderous-klepon-eb393d.netlify.app/)
-   
-   [Video](https://www.loom.com/share/70e5318c28b6424d8ddffccdb548eec3)
+### Tech Stack <a name="tech-stack"></a>
 
-## 🏛 Built With
-- css
-- JavaScript
-- React
-- Redux
-- ES6 Modules
-- following linters standards.
-- following github flows standards.
-- following git flows standards.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://react.dev/">React</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+    <li><a href="">Bootstrap</a></li>
+  </ul>
+  <summary>Application Programming Interface</summary>
+  <ul>
+    <li><a href="https://restcountries.com/v3.1/all">API</a></li>
+  </ul>
+</details>
 
-## 📑 Authors
-👤 **Ahmed Zaki Yousufi**
-- GitHub: [@Ahmed Zaki Yousufi](https://github.com/zakiyousufi)
-- LinkedIn: [Ahmed Zaki Yousufi](https://www.linkedin.com/in/ahmadzaki-yousufi-055214217/)
+<!-- Features -->
 
-## ⚙ Getting Started
-To get a local copy up and running... 
-Follow these 
+### Key Features <a name="key-features"></a>
 
-  ## 📋Setup
-- Run git clone on this project at the desired directory:
+- Users can view list of contnents listed on the main page
+- Users can view list of countries listed on the countries page
+- Users can view contries states and maps on the country page
 
-  git clone https: CLONE URL (You can get the URL from: [(https://github.com/zakiyousufi/worldMap-countryStats)](github.com/zakiyousufi/worldMap-countryStats) Click on the code button at the top of the repo (it has green color) then select the HTTPS or ssh key and copy the URL)
-  ```
-  git clone (Past the URL that you copied)
-  ```
-  ```
-  cd worldMap-countryStats
-  ```
-✅Install dependencies
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-  ```
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+```sh
+ git
+ npm
+ Your favorite text editor
+```
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  git clone github.com/zakiyousufi/worldMap-countryStats
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd WorldMap-and-CountriesState
   npm install
-  ```
+```
 
-✅Start React Dev Server
-  ```
-  npm start
-  ```
-- On your favourite browser go to http://localhost:3000/
+### Usage
 
-## 🤝 Contributing
+To run the project, execute the following command:
+
+```sh
+  npm run start - Starts the development server
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+## 📑 Author
+👤 **Ahmed Zaki Yousufi**
+- GitHub: [@zakiyousufi](https://github.com/zakiyousufi)
+- LinkedIn: [zakiyousufi](https://www.linkedin.com/in/zakiyousufi)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] Add the weather condition
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
 Contributions, issues, and feature requests are welcome!
-thanks:
 
-## 🙏🏻 Show your support
-Give a ⭐️ if you like this project!
+Feel free to check the [issues page](../../issues/).
 
-### Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Microverse
+<!-- SUPPORT -->
 
-[All Countries API](https://restcountries.com/v3.1/all) for providing the data for free
+## ⭐️ Show your support <a name="support"></a>
 
-[Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the amazing on [Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+If you like this project please leave a star🤩
 
-## 📝 License
-This project has no License 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- [Microverse](https://www.microverse.org/)
+- [All Countries API](https://restcountries.com/v3.1/all)
+- [Origlan design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) idea by: [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

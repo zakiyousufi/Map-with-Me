@@ -1,5 +1,6 @@
 .countries {
   padding: 5%;
+  height: 86.5vh;
 
   .world_map_container {
     display: flex;
@@ -113,7 +114,7 @@
       }
   
       h2 {
-        font-size: 1rem;
+        font-size: 16px;
         font-weight: 300;
       }
     }
@@ -167,5 +168,8 @@
         }
       }
     }
+  }
+  .select-country {
+    font-size: 20px;
   }
 }

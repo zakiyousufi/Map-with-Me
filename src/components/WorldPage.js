@@ -9,7 +9,7 @@ const WorldPage = () => {
       <div className="world_map" data-testid="home-link">
         <div className="world_map_container">
           <img className='world-map' src={worldImg} alt="world-image" />
-          <h2>World MAP with ME</h2>
+          <h2>World MAP</h2>
         </div>
         <div className="stats">
           <h3>STATES BY CONTINENTS</h3>

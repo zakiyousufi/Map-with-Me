@@ -1,6 +1,6 @@
 .world_map {
   padding-top: 7rem;
-  background: url(../images/earth.jpg);
+  background: url(../images/earth_light.JPG);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    height: 80vh;
 
     img {
       cursor: pointer;

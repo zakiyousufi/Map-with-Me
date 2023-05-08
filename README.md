@@ -29,9 +29,17 @@ In this application we're fetching the returned data from the API in the Redux s
 
 This web application is build with react and provides statistical insights on all Continents and its various countries around the world. The application allows users to filter through the information by different continents and countries.
 
-## 🖼 App Screenshot
+## 🖼 App Screenshots
 
-More screenshots are [here](./screenshot.md)
+<h4>Light Mode<h4>
+
+![d1](https://user-images.githubusercontent.com/87229464/236800683-81ab0644-fb42-4d24-a5ca-b9c04330c5c3.JPG)
+
+<h4>Dark Mode Mode<h4>
+
+![n1](https://user-images.githubusercontent.com/87229464/236800709-4e0a5b46-11bc-4fdc-96cb-18e50a5bab95.JPG)
+
+Find more screenshots [here](./screenshot.md)
 
 ## 🛠 Built With <a name="built-with"></a>
 

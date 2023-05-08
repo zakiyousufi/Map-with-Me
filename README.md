@@ -25,8 +25,6 @@
 
 **World Map and Countries States** The Country-stats is a a React, Redux application based on the All [Countries API](https://restcountries.com/v3.1/all).
 
-In this application we're fetching the returned data from the API in the Redux store.
-
 This web application is build with react and provides statistical insights on all Continents and its various countries around the world. The application allows users to filter through the information by different continents and countries.
 
 ## 🖼 App Screenshots

@@ -39,6 +39,9 @@ This web application is build with react and provides statistical insights on al
 
 Find more screenshots [here](./screenshot.md)
 
+## 🚀 Live Demo
+#### [Live Demo](https://sparkly-hotteok-013f85.netlify.app/)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -50,6 +53,8 @@ Find more screenshots [here](./screenshot.md)
     <li><a href="https://redux.js.org/">Redux</a></li>
     <li><a href="">Bootstrap</a></li>
   </ul>
+</details>
+<details>
   <summary>Sarver</summary>
   <ul>
     <li><a href="https://restcountries.com/v3.1/all">API</a></li>

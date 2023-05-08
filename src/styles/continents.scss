@@ -1,11 +1,11 @@
 .continents {
   padding: 50px 5%;
+
   .continents_list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem;
     
-
     li {
       display: flex;
       align-items: center;

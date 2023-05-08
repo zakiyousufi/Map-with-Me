@@ -100,64 +100,64 @@
 @media (max-width: 600px) {
   .countries {
     padding: 3%;
-  
+
     .world_map_container {
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 1rem;
-  
+
       img {
         cursor: pointer;
         margin-bottom: 10px;
         width: 50%;
       }
-  
+
       h2 {
         font-size: 16px;
         font-weight: 300;
       }
     }
-  
+
     .row {
       gap: 2rem;
-  
+
       li {
         padding: 1rem;
         border-radius: 1rem;
         cursor: pointer;
-  
+
         .list {
           display: flex;
           align-items: center;
           justify-content: space-between;
           padding: 10px;
-  
+
           h2 {
             font-size: 10px;
             font-weight: 600;
             color: #fff;
           }
-  
+
           a {
             font-size: 2rem;
             color: var(--text-color);
           }
         }
-  
+
         img {
           height: 50%;
           width: 100%;
           object-fit: contain;
         }
-  
+
         &:hover {
           transform: scale(1.1);
         }
-  
+
         .item {
           margin: 3px;
-  
+
           p {
             font-size: 8px;
             overflow-wrap: break-word;

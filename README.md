@@ -29,6 +29,10 @@ In this application we're fetching the returned data from the API in the Redux s
 
 This web application is build with react and provides statistical insights on all Continents and its various countries around the world. The application allows users to filter through the information by different continents and countries.
 
+## 🖼 App Screenshot
+
+More screenshots are [here](./screenshot.md)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -40,7 +44,7 @@ This web application is build with react and provides statistical insights on al
     <li><a href="https://redux.js.org/">Redux</a></li>
     <li><a href="">Bootstrap</a></li>
   </ul>
-  <summary>Application Programming Interface</summary>
+  <summary>Sarver</summary>
   <ul>
     <li><a href="https://restcountries.com/v3.1/all">API</a></li>
   </ul>

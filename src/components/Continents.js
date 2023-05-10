@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from "react-multi-carousel";
 import { fetchCountries } from '../redux/countries/countries';
 import { getCategory } from '../redux/countries/categories';
 import { Link } from 'react-router-dom';
@@ -37,6 +38,47 @@ const Continents = () => {
         </select>
       </label>
       <ul className="continents_list">
+      <Carousel
+          additionalTransfrom={3}
+          arrows
+          autoPlay={true}
+          autoPlaySpeed={2000}
+          centerMode={true}
+          className="slider"
+          draggable
+          infinite
+          keyBoardControl
+          responsive={{
+            desktop: {
+              breakpoint: {
+                max: 3000,
+                min: 1024
+              },
+              items: 4,
+              partialVisibilityGutter: 40
+            },
+            mobile: {
+              breakpoint: {
+                max: 600,
+                min: 0
+              },
+              items: 2,
+              partialVisibilityGutter: 30
+            },
+            tablet: {
+              breakpoint: {
+                max: 1024,
+                min: 600
+              },
+              items: 3,
+              partialVisibilityGutter: 40
+            }
+          }}
+          showDots={false}
+          sliderClass=""
+          slidesToSlide={1}
+          swipeable
+        >
         {categories.map(({ id, name, image }) => (
           <li key={id}>
             <Link to={`/${name}`}>
@@ -47,6 +89,7 @@ const Continents = () => {
             </Link>
           </li>
         ))}
+        </Carousel>
       </ul>
     </div>
   );

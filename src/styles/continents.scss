@@ -1,38 +1,43 @@
 .continents {
   padding: 50px 5%;
+  height: 98vh;
 
   .continents_list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem;
 
-    li {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px 20px;
-      background: rgba(6, 1, 45, 0.12);
-      background: rgba(255, 157, 0, 0);
-      border-radius: 16px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(4.9px);
+    .slider {
+    margin-top: 10%;
 
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        background: rgba(6, 1, 45, 0.12);
+        background: rgba(255, 157, 0, 0);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(4.9px);
 
-      h2 {
-        font-size: 2.5rem;
-        margin-top: 30px;
-      }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
 
-      a {
-        font-size: 2rem;
-        color: var(--text-color);
-        font-weight: 600;
+        h2 {
+          font-size: 2.5rem;
+          margin-top: 30px;
+        }
+
+        a {
+          font-size: 2rem;
+          color: var(--text-color);
+          font-weight: 600;
+        }
       }
     }
   }
@@ -45,4 +50,14 @@
   text-align: center;
   background-color: #e93077;
   color: #fff;
+}
+
+@media (max-width: 720px) {
+  .continents {
+    height: 95vh;
+    
+    .continents_list {
+      padding: 20% 0;
+    }
+  }
 }

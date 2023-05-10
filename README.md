@@ -40,7 +40,7 @@ This web application is build with react and provides statistical insights on al
 Find more screenshots [here](./screenshot.md)
 
 ## 🚀 Live Demo
-#### [Live Demo link](https://sparkly-hotteok-013f85.netlify.app/)
+#### [Live Demo link]()
 
 ## 🛠 Built With <a name="built-with"></a>
 

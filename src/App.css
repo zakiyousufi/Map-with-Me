@@ -28,9 +28,7 @@ html {
 body {
   background: rgb(236, 76, 138);
   background: linear-gradient(180deg, rgb(243, 97, 153) 34%, rgb(255, 0, 98) 100%);
-  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
   color: var(--text-color);
   font-size: 1.6rem;
   line-height: 1.5;

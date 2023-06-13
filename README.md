@@ -51,13 +51,13 @@ Find more screenshots [here](./screenshot.md)
   <ul>
     <li><a href="https://react.dev/">React</a></li>
     <li><a href="https://redux.js.org/">Redux</a></li>
-    <li><a href="">Bootstrap</a></li>
+    <li><a href="https://sass-lang.com/">Sass</a></li>
   </ul>
 </details>
 <details>
   <summary>Sarver</summary>
   <ul>
-    <li><a href="https://restcountries.com/v3.1/all">API</a></li>
+    <li><a href="https://restcountries.com/v3.1/all">Countries API</a></li>
   </ul>
 </details>
 
@@ -79,7 +79,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need install the following:
 
 ```sh
  git

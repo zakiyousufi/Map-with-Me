@@ -5,16 +5,16 @@ import '../styles/countrydetails.scss';
 
 const CountryDetails = () => {
   const { countries } = useSelector((state) => state);
-
   return (
     <div className="details">
       {countries.map((country) => (
-        <li key={country?.name.common}>
+        <div className='details-container' key={country?.name.common}>
           <div className="map">
             <MapContainer
               center={{ lat: country?.latlng[0], lng: country?.latlng[1] }}
-              zoom={6}
+              zoom={5.5}
               scrollWheelZoom={false}
+              className='c-map'
             >
               <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -31,39 +31,41 @@ const CountryDetails = () => {
               </Marker>
             </MapContainer>
           </div>
-          <div className="item">
-            <p>TimesZones:</p>
-            <p>
-              <strong>{country?.timezones}</strong>
-            </p>
+          <div className='contry-details'>
+            <div className="item">
+              <p>Time Zone(s):</p>
+              <p>
+                <strong>{country?.timezones}</strong>
+              </p>
+            </div>
+            <div className="item">
+              <p>Offical Name: </p>
+              <p>
+                <strong>{country?.name.official}</strong>
+              </p>
+            </div>
+            <div className="item">
+              <p>Population: </p>
+              <p>
+                <strong>{country?.population}</strong>
+              </p>
+            </div>
+            <div className="item">
+              <p>Capital: </p>
+              <p>
+                <strong>{country?.capital}</strong>
+              </p>
+            </div>
+            <div className="item">
+              <p>Language(s) :</p>
+              <p>{Object.values(country?.languages)} </p>
+            </div>
+            <div className="item">
+              <p>Coat Of Arms</p>
+              <img src={country?.coatOfArms.svg} alt="awesome coat 0f arm" />
+            </div>
           </div>
-          <div className="item">
-            <p>The Official name: </p>
-            <p>
-              <strong>{country?.name.official}</strong>
-            </p>
-          </div>
-          <div className="item">
-            <p>The Population: </p>
-            <p>
-              <strong>{country?.population}</strong>
-            </p>
-          </div>
-          <div className="item">
-            <p>Capital Name: </p>
-            <p>
-              <strong>{country?.capital}</strong>
-            </p>
-          </div>
-          <div className="item">
-            <p>The languages they speak are:</p>
-            <p>{Object.values(country?.languages)}</p>
-          </div>
-          <div className="item">
-            <p>Coat Of Arms</p>
-            <img src={country?.coatOfArms.svg} alt="awesome coat 0f arm" />
-          </div>
-        </li>
+        </div>
       ))}
     </div>
   );

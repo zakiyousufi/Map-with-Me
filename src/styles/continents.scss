@@ -1,58 +1,63 @@
 .continents {
+  padding: 50px 5%;
+  height: 98vh;
+
   .continents_list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem;
 
-    li {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    .slider {
+      margin-top: 10%;
 
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        background: rgba(6, 1, 45, 0.12);
+        background: rgba(255, 157, 0, 0);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(4.9px);
 
-      h2 {
-        font-size: 2.5rem;
-        margin-top: 30px;
-      }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
 
-      a {
-        font-size: 2rem;
-        color: var(--text-color);
-        font-weight: 600;
-        animation: floating 2s linear infinite;
+        h2 {
+          font-size: 2.5rem;
+          margin-top: 30px;
+        }
 
-        @keyframes floating {
-          0% {
-            transform: translateY(0);
-          }
-
-          100% {
-            transform: translateY(0);
-          }
-
-          50% {
-            transform: translateY(-1rem);
-          }
+        a {
+          font-size: 2rem;
+          color: var(--text-color);
+          font-weight: 600;
         }
       }
     }
+  }
+}
 
-    li:nth-child(even) {
-      border-radius: 0.5rem;
-      padding: 5rem;
-      margin: 10px;
-    }
+.select {
+  margin: 1% 0;
+  width: 30rem;
+  height: 20px;
+  text-align: center;
+  background-color: #e93077;
+  color: #fff;
+}
 
-    li:nth-child(odd) {
-      background: var(--primary-color);
-      border-radius: 0.5rem;
-      padding: 5rem;
-      margin: 10px;
+@media (max-width: 720px) {
+  .continents {
+    height: 95vh;
+
+    .continents_list {
+      padding: 20% 0;
     }
   }
 }

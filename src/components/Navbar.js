@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { FaMicrophone } from 'react-icons/fa';
-import { AiTwotoneSetting, AiFillLeftSquare } from 'react-icons/ai';
+import { AiFillLeftSquare } from 'react-icons/ai';
 import '../styles/navbar.scss';
 
 const Navbar = () => {
@@ -9,14 +8,10 @@ const Navbar = () => {
     <header className="nav_bar">
       <div className="nav_left">
         <NavLink to="/">
-          <AiFillLeftSquare />
+          <p> <AiFillLeftSquare /> Home</p>
         </NavLink>
       </div>
-      <h2>STATS OF COUNTRIES</h2>
-      <div className="nav_right">
-        <FaMicrophone />
-        <AiTwotoneSetting />
-      </div>
+      <h2 className='app-name' >Map with ME</h2>
     </header>
   );
 };

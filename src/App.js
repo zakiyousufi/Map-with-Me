@@ -22,7 +22,12 @@ function App() {
       <div className="App" id={theme}>
       <div className="switch">
         <label> {theme === "light" ? <FiSun /> : <FaMoon />}</label>
-        <ReactSwitch onChange={toggleTheme} checked={theme === "light"} />
+        <ReactSwitch 
+          onChange={toggleTheme}
+          checked={theme === "light"}
+          uncheckedIcon={false}
+          checkedIcon={false}
+        />
       </div>
         <Navbar />
         <Routes>

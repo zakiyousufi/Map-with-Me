@@ -48,6 +48,7 @@ section {
   position: absolute;
   top: 70px;
   right: 38px;
+  z-index: 1000;
 }
 
 .switch label {
@@ -63,7 +64,7 @@ section {
 #dark {
   background: rgb(0, 39, 108);
   background: linear-gradient(180deg, rgba(0, 39, 108, 1) 5%, rgba(0, 5, 23, 1) 67%);
-  height: 300vh;
+  background-size: cover;
 }
 
 #light {

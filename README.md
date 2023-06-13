@@ -37,10 +37,9 @@ This web application is build with react and provides statistical insights on al
 
 ![n1](https://user-images.githubusercontent.com/87229464/236800709-4e0a5b46-11bc-4fdc-96cb-18e50a5bab95.JPG)
 
-Find more screenshots [here](./screenshot.md)
 
 ## 🚀 Live Demo
-#### [Live Demo link]()
+#### [Live Demo link](https://tubular-medovik-12c9eb.netlify.app/)
 
 ## 🛠 Built With <a name="built-with"></a>
 
